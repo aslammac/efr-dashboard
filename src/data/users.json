@@ -1,0 +1,371 @@
+{
+  "users": [
+    {
+      "email": "test@gmail.com",
+      "mobile": "9744770288",
+      "name": "aslam ",
+      "password": "sdasdada",
+      "createdAt": "2024-11-01T08:07:08.259Z",
+      "verified": true
+    },
+    {
+      "email": "test2@gmail.com",
+      "mobile": "9999999999",
+      "name": "test",
+      "password": "fsfsdfsdf",
+      "createdAt": "2024-11-01T08:08:23.751Z",
+      "verified": false
+    },
+    {
+      "email": "test3@gmail.com",
+      "mobile": "8888888888",
+      "name": "sarah",
+      "password": "pass123secure",
+      "createdAt": "2024-11-02T10:15:43.123Z",
+      "verified": false
+    },
+    {
+      "email": "test4@gmail.com",
+      "mobile": "7777777777",
+      "name": "michael",
+      "password": "strongpass456",
+      "createdAt": "2024-11-02T14:22:18.445Z",
+      "verified": false
+    },
+    {
+      "email": "test5@gmail.com",
+      "mobile": "6666666666",
+      "name": "emma",
+      "password": "securepass789",
+      "createdAt": "2024-11-03T09:45:32.891Z",
+      "verified": true
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord_001",
+      "userId": "test@gmail.com",
+      "amount": 1299.99,
+      "status": "completed",
+      "date": "2024-01-15T10:30:00Z",
+      "category": "electronics",
+      "items": [
+        {
+          "productId": "p001",
+          "name": "Smartphone",
+          "quantity": 1,
+          "price": 1299.99
+        }
+      ]
+    },
+    {
+      "id": "ord_002",
+      "userId": "test2@gmail.com",
+      "amount": 89.97,
+      "status": "completed",
+      "date": "2024-01-14T15:20:00Z",
+      "category": "clothing",
+      "items": [
+        {
+          "productId": "p045",
+          "name": "T-Shirt",
+          "quantity": 3,
+          "price": 29.99
+        }
+      ]
+    },
+    {
+      "id": "ord_003",
+      "userId": "test@gmail.com",
+      "amount": 549.99,
+      "status": "processing",
+      "date": "2024-01-16T09:15:00Z",
+      "category": "electronics",
+      "items": [
+        {
+          "productId": "p002",
+          "name": "Headphones",
+          "quantity": 1,
+          "price": 549.99
+        }
+      ]
+    },
+    {
+      "id": "ord_004",
+      "userId": "test2@gmail.com",
+      "amount": 125.97,
+      "status": "completed",
+      "date": "2024-01-17T14:20:00Z",
+      "category": "books",
+      "items": [
+        {
+          "productId": "p089",
+          "name": "Programming Book Bundle",
+          "quantity": 3,
+          "price": 41.99
+        },
+        {
+          "productId": "p090",
+          "name": "Programming Book Bundle",
+          "quantity": 3,
+          "price": 41.99
+        }
+      ]
+    }
+  ],
+  "basicMetrics": {
+    "totalSales": 584995.5,
+    "totalOrders": 300,
+    "totalCustomers": 5000,
+    "pendingOrders": 42
+  },
+  "salesByCategory": {
+    "electronics": {
+      "total": 45499.99,
+      "items": 89,
+      "monthlyData": [
+        {
+          "month": "Jan",
+          "sales": 18500
+        },
+        {
+          "month": "Feb",
+          "sales": 17400
+        },
+        {
+          "month": "Mar",
+          "sales": 9599.99
+        },
+        {
+          "month": "Apr",
+          "sales": 12500
+        },
+        {
+          "month": "May",
+          "sales": 15800
+        },
+        {
+          "month": "Jun",
+          "sales": 14200
+        }
+      ]
+    },
+    "clothing": {
+      "total": 22750.5,
+      "items": 450,
+      "monthlyData": [
+        {
+          "month": "Jan",
+          "sales": 4250
+        },
+        {
+          "month": "Feb",
+          "sales": 3900
+        },
+        {
+          "month": "Mar",
+          "sales": 4600.5
+        },
+        {
+          "month": "Apr",
+          "sales": 3800
+        },
+        {
+          "month": "May",
+          "sales": 4100
+        },
+        {
+          "month": "Jun",
+          "sales": 2100
+        }
+      ]
+    },
+    "books": {
+      "total": 15280.75,
+      "items": 295,
+      "monthlyData": [
+        {
+          "month": "Jan",
+          "sales": 2750
+        },
+        {
+          "month": "Feb",
+          "sales": 2830.75
+        },
+        {
+          "month": "Mar",
+          "sales": 2700
+        },
+        {
+          "month": "Apr",
+          "sales": 2400
+        },
+        {
+          "month": "May",
+          "sales": 2300
+        },
+        {
+          "month": "Jun",
+          "sales": 2300
+        }
+      ]
+    },
+    "furniture": {
+      "total": 89500.25,
+      "items": 120,
+      "monthlyData": [
+        {
+          "month": "Jan",
+          "sales": 15500
+        },
+        {
+          "month": "Feb",
+          "sales": 14200.25
+        },
+        {
+          "month": "Mar",
+          "sales": 16800
+        },
+        {
+          "month": "Apr",
+          "sales": 13500
+        },
+        {
+          "month": "May",
+          "sales": 15200
+        },
+        {
+          "month": "Jun",
+          "sales": 14300
+        }
+      ]
+    }
+  },
+  "customerMetrics": {
+    "newCustomers": [
+      {
+        "month": "Jan",
+        "count": 120
+      },
+      {
+        "month": "Feb",
+        "count": 145
+      },
+      {
+        "month": "Mar",
+        "count": 165
+      },
+      {
+        "month": "Apr",
+        "count": 135
+      },
+      {
+        "month": "May",
+        "count": 180
+      },
+      {
+        "month": "Jun",
+        "count": 160
+      }
+    ],
+    "activeUsers": [
+      {
+        "month": "Jan",
+        "count": 850
+      },
+      {
+        "month": "Feb",
+        "count": 875
+      },
+      {
+        "month": "Mar",
+        "count": 920
+      },
+      {
+        "month": "Apr",
+        "count": 890
+      },
+      {
+        "month": "May",
+        "count": 950
+      },
+      {
+        "month": "Jun",
+        "count": 980
+      }
+    ],
+    "satisfaction": [
+      {
+        "month": "Jan",
+        "rating": 4.5
+      },
+      {
+        "month": "Feb",
+        "rating": 4.6
+      },
+      {
+        "month": "Mar",
+        "rating": 4.7
+      },
+      {
+        "month": "Apr",
+        "rating": 4.6
+      },
+      {
+        "month": "May",
+        "rating": 4.8
+      },
+      {
+        "month": "Jun",
+        "rating": 4.7
+      }
+    ]
+  },
+  "productPerformance": {
+    "topSellers": [
+      {
+        "id": "p001",
+        "name": "Smartphone",
+        "category": "electronics",
+        "totalSales": 450,
+        "revenue": 584995.5
+      },
+      {
+        "id": "p045",
+        "name": "T-Shirt",
+        "category": "clothing",
+        "totalSales": 1200,
+        "revenue": 35988
+      },
+      {
+        "id": "p089",
+        "name": "Programming Book Bundle",
+        "category": "books",
+        "totalSales": 350,
+        "revenue": 14696.5
+      }
+    ],
+    "inventory": {
+      "electronics": {
+        "inStock": 890,
+        "lowStock": 45,
+        "outOfStock": 12
+      },
+      "clothing": {
+        "inStock": 2500,
+        "lowStock": 180,
+        "outOfStock": 30
+      },
+      "books": {
+        "inStock": 1500,
+        "lowStock": 85,
+        "outOfStock": 15
+      },
+      "furniture": {
+        "inStock": 350,
+        "lowStock": 25,
+        "outOfStock": 8
+      }
+    }
+  }
+}
